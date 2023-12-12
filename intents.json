@@ -40,6 +40,7 @@
       "responses": [
         "We offer a range of agriculture services, including crop management and disease control.",
         "Our agriculture services cover various aspects, including crop management and disease prevention."
+        
       ]
     },
     {
@@ -47,11 +48,26 @@
       "patterns": [
         "How do you handle crop management?",
         "Tell me about your crop management practices.",
-        "What services do you provide for crop care?"
+        "What services do you provide for crop care?",
+        "How can I enhance soil fertility naturally in my farm?",
+        "What measures can I take to reduce erosion in my fields?"
       ],
       "responses": [
         "Our crop management includes precision farming techniques and personalized care for each crop.",
-        "We employ advanced technologies for effective crop management and yield optimization."
+        "We employ advanced technologies for effective crop management and yield optimization.",
+        "Incorporate cover cropping and organic matter to improve soil health and fertility.",
+        "Implement contour plowing, cover crops, and windbreaks to minimize soil erosion risks."
+      ]
+    },
+    {
+      "tag": "pestmanagement",
+      "patterns": [
+        "how should i deal with pests in my farm?",
+        "What are organic methods to control pests in my garden?"
+      ],
+      "responses": [
+        "You can try implementing integrated pest management strategies, combining biological controls, crop rotation, and targeted pesticide use to effectively address pests in your farm.",
+        "Consider using neem oil or introducing beneficial insects for natural pest management."
       ]
     },
     {
@@ -67,7 +83,7 @@
       ]
     },
     {
-      "tag": "cropDiscriptions",
+      "tag": "cropDescriptions",
       "patterns": [
         "Can you provide descriptions of the crops you work with?",
         "Tell me about the types of crops you specialize in.",
@@ -91,6 +107,19 @@
       ]
     },
     {
+      "tag": "CropSeasons",
+      "patterns": [
+        "Which crops are suitable for the summer season?",
+        "Which crops thrive in winter conditions?",
+        "Which crops are best for the rainy season?"
+      ],
+      "responses": [
+        "Tomatoes, peppers, cucumbers, and watermelon are well-suited for the warm conditions of the summer season.",
+        "Winter wheat, garlic, onions, and certain varieties of cabbage can withstand and even benefit from the colder winter months.",
+        "Opt for crops like rice, maize, okra, and certain varieties of beans that thrive in the increased moisture levels during the rainy season."
+      ]
+    },
+    {
       "tag": "CropDiseasesBhopal",
       "patterns": [
         "How do you address crop diseases in Bhopal?",
@@ -100,6 +129,16 @@
       "responses": [
         "In Bhopal, we tailor our crop disease management strategies to the local conditions, ensuring effective control and prevention.",
         "Our services in Bhopal focus on specific crop diseases prevalent in the region, with targeted solutions for farmers."
+      ]
+    },
+    {
+      "tag": "Harvesting",
+      "patterns": [
+        "How do I determine the right time to harvest my crops?"
+        
+      ],
+      "responses": [
+        "Monitor crop maturity indicators such as color, texture, and size, and conduct regular assessments to determine the optimal harvest time."
       ]
     },
     {
