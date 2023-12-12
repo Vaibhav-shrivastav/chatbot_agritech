@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "agriculture",
+      "patterns": [
+        "What agriculture services do you provide?",
+        "Tell me about your agriculture offerings.",
+        "How can you assist with farming?"
+      ],
+      "responses": [
+        "We offer a range of agriculture services, including crop management and disease control.",
+        "Our agriculture services cover various aspects, including crop management and disease prevention."
+      ]
+    },
+    {
+      "tag": "cropmanagement",
+      "patterns": [
+        "How do you handle crop management?",
+        "Tell me about your crop management practices.",
+        "What services do you provide for crop care?"
+      ],
+      "responses": [
+        "Our crop management includes precision farming techniques and personalized care for each crop.",
+        "We employ advanced technologies for effective crop management and yield optimization."
+      ]
+    },
+    {
+      "tag": "cropDiseaseManagement",
+      "patterns": [
+        "How do you manage crop diseases?",
+        "Tell me about your approach to crop disease prevention.",
+        "What measures do you take for crop health?"
+      ],
+      "responses": [
+        "Our crop disease management involves early detection and targeted treatments to ensure healthy crops.",
+        "We implement integrated pest management strategies to control and prevent crop diseases."
+      ]
+    },
+    {
+      "tag": "cropDiscriptions",
+      "patterns": [
+        "Can you provide descriptions of the crops you work with?",
+        "Tell me about the types of crops you specialize in.",
+        "What crops do you focus on?"
+      ],
+      "responses": [
+        "We work with a variety of crops, including cereals, fruits, and vegetables. Each crop is described based on its unique characteristics and requirements.",
+        "Our expertise covers a wide range of crops, and we can provide detailed descriptions for each."
+      ]
+    },
+    {
+      "tag": "IndianCropsInformation",
+      "patterns": [
+        "Give me information about Indian crops.",
+        "What do you know about crops in India?",
+        "Tell me about the agriculture scenario in India."
+      ],
+      "responses": [
+        "We have comprehensive information on Indian crops, including details about cultivation practices, seasons, and varieties.",
+        "Our database includes extensive information about various crops grown in India, helping farmers make informed decisions."
+      ]
+    },
+    {
+      "tag": "CropDiseasesBhopal",
+      "patterns": [
+        "How do you address crop diseases in Bhopal?",
+        "Tell me about your services related to crop diseases in Bhopal.",
+        "What measures are taken for crop disease management in Bhopal?"
+      ],
+      "responses": [
+        "In Bhopal, we tailor our crop disease management strategies to the local conditions, ensuring effective control and prevention.",
+        "Our services in Bhopal focus on specific crop diseases prevalent in the region, with targeted solutions for farmers."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is your approach to managing weather-related challenges?",
+        "Tell me about your services related to weather and agriculture.",
+        "How do you help farmers deal with adverse weather conditions?"
+      ],
+      "responses": [
+        "We incorporate weather forecasting data into our agriculture services to help farmers prepare for and mitigate the impact of adverse weather conditions.",
+        "Our weather-centric approach includes providing timely information and solutions to help farmers navigate challenges posed by changing weather patterns."
+      ]
+    }
+  ]
+}
